@@ -11,6 +11,7 @@ steps:
     image: alpine
     commands:
       - echo "Hello from pipeline-1"
+      - echo "demo"
 
 trigger:
   ref:
